@@ -1,0 +1,102 @@
+{
+  "navigation": {
+    "home": "Home",
+    "shop": "Shop",
+    "gallery": "Gallery",
+    "videos": "Videos",
+    "about": "About",
+    "contact": "Contact",
+    "account": "My Account",
+    "cart": "Cart"
+  },
+  "common": {
+    "search": "Search",
+    "addToCart": "Add to Cart",
+    "buy": "Buy",
+    "price": "Price",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "description": "Description",
+    "category": "Category",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "currency": "USD"
+  },
+  "home": {
+    "title": "Welcome to Sanrio Store",
+    "subtitle": "The best official Sanrio products",
+    "featured": "Featured",
+    "newArrivals": "New Arrivals",
+    "viewAll": "View All"
+  },
+  "shop": {
+    "title": "Our Shop",
+    "noProducts": "No products found",
+    "filters": "Filters",
+    "sortBy": "Sort By",
+    "priceRange": "Price Range"
+  },
+  "cart": {
+    "title": "My Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "checkout": "Proceed to Checkout",
+    "removeItem": "Remove Item",
+    "updateQuantity": "Update Quantity"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingAddress": "Shipping Address",
+    "billingAddress": "Billing Address",
+    "paymentMethod": "Payment Method",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "postalCode": "Postal Code",
+    "country": "Country",
+    "placeOrder": "Place Order",
+    "orderPlaced": "Order placed successfully"
+  },
+  "account": {
+    "title": "My Account",
+    "profile": "Profile",
+    "orders": "My Orders",
+    "addresses": "Addresses",
+    "preferences": "Preferences",
+    "logout": "Log Out",
+    "login": "Sign In",
+    "register": "Sign Up"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "returns": "Returns",
+    "shipping": "Shipping Info",
+    "followUs": "Follow Us",
+    "newsletter": "Subscribe to Newsletter",
+    "copyright": "© 2026 Sanrio Store. All rights reserved."
+  },
+  "products": {
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "sku": "SKU",
+    "category": "Category",
+    "relatedProducts": "Related Products"
+  }
+}

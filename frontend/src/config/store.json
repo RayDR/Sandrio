@@ -1,0 +1,80 @@
+{
+  "name": "Sanrio Premium Store",
+  "description": "Official Sanrio products with premium UI/UX",
+  "logo": "https://via.placeholder.com/200x60?text=Sanrio+Store",
+  "currency": "MXN",
+  "languages": ["es-MX", "en-US"],
+  "defaultLanguage": "es-MX",
+  "theme": {
+    "colors": {
+      "primary": "#FFB6E1",
+      "secondary": "#FFE4E1",
+      "accent": "#E0FFFF",
+      "neutral": "#F5F5F5",
+      "text": "#333333",
+      "border": "#E8E8E8"
+    },
+    "typography": {
+      "fontFamily": "Inter, system-ui, sans-serif",
+      "fontSize": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem"
+      }
+    },
+    "spacing": {
+      "unit": 4
+    }
+  },
+  "features": {
+    "cart": true,
+    "checkout": true,
+    "accounts": true,
+    "reviews": true,
+    "videos": true,
+    "gamification": true
+  },
+  "plugins": [
+    {
+      "id": "gallery",
+      "name": "Product Gallery",
+      "enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "videos",
+      "name": "Video Integration",
+      "enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "coupons",
+      "name": "Coupon System",
+      "enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "reviews",
+      "name": "Product Reviews",
+      "enabled": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": "blog",
+      "name": "Blog Integration",
+      "enabled": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics Tracking",
+      "enabled": true,
+      "version": "1.0.0"
+    }
+  ]
+}

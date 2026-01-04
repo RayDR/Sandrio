@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #FFB6E1;
+  --secondary: #FFE4E1;
+  --accent: #E0FFFF;
+  --neutral: #F5F5F5;
+  --text: #333333;
+  --border: #E8E8E8;
+}
+
+* {
+  @apply transition-colors duration-300;
+}
+
+body {
+  @apply bg-neutral text-text font-sans antialiased;
+}
+
+/* Smooth scrolling */
+html {
+  @apply scroll-smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full hover:bg-secondary;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease-out;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+/* Gradient buttons */
+.btn-primary {
+  @apply px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary hover:text-white transition-all duration-300;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden;
+}
+
+.card-hover {
+  @apply transform hover:scale-105 transition-transform duration-300;
+}
+
+/* Product image container */
+.product-image-container {
+  @apply aspect-square bg-neutral rounded-lg overflow-hidden;
+}

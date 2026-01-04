@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": "hello-kitty",
+      "name": "Hello Kitty",
+      "slug": "hello-kitty",
+      "description": "Classic Hello Kitty collections"
+    },
+    {
+      "id": "my-melody",
+      "name": "My Melody",
+      "slug": "my-melody",
+      "description": "Cute My Melody products"
+    },
+    {
+      "id": "badtz-maru",
+      "name": "Badtz-Maru",
+      "slug": "badtz-maru",
+      "description": "Adorable Badtz-Maru items"
+    },
+    {
+      "id": "gudetama",
+      "name": "Gudetama",
+      "slug": "gudetama",
+      "description": "Lazy Gudetama collection"
+    },
+    {
+      "id": "keroppi",
+      "name": "Keroppi",
+      "slug": "keroppi",
+      "description": "Happy Keroppi products"
+    },
+    {
+      "id": "aggretsuko",
+      "name": "Aggretsuko",
+      "slug": "aggretsuko",
+      "description": "Red Panda Aggretsuko series"
+    },
+    {
+      "id": "pochacco",
+      "name": "Pochacco",
+      "slug": "pochacco",
+      "description": "Playful Pochacco collection"
+    },
+    {
+      "id": "homeware",
+      "name": "Homeware",
+      "slug": "homeware",
+      "description": "Home and decor items"
+    },
+    {
+      "id": "stationery",
+      "name": "Stationery",
+      "slug": "stationery",
+      "description": "Office and school supplies"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Bags, keys, and accessories"
+    }
+  ]
+}
